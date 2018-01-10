@@ -12,7 +12,7 @@ class Radio extends React.Component {
   }
 
   onChange() {
-    const isChecked = this.state.isChecked;
+    const { isChecked } = this.state;
     this.setState({ isChecked: !isChecked });
     if (this.props.onClick) {
       this.props.onClick({ value: this.props.value, isChecked });

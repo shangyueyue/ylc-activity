@@ -64,7 +64,8 @@ module.exports = {
       // 匿名函数
       "func-names":0,
       "prefer-promise-reject-errors": 0,
-      "react/prefer-stateless-function": 1
+      "react/prefer-stateless-function": 1,
+      "jsx-a11y/click-events-have-key-events": 0
     },
     "parserOptions":{
       "ecmaFeatures": {

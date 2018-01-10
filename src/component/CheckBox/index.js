@@ -10,7 +10,7 @@ class CheckBox extends React.Component {
   }
 
   onCheckClick() {
-    const isChecked = this.state.isChecked;
+    const { isChecked } = this.state;
     this.setState({ isChecked: !isChecked });
 
     if (this.props.onChange) {
