@@ -1,0 +1,31 @@
+.cardContainer {
+  padding: 0 8px;
+  background-color: #f7f7f7; }
+
+.itemList {
+  padding: 0;
+  background-color: #fff;
+  margin-bottom: 12px;
+  box-shadow: 0 0 3px 0 #dedede;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative; }
+
+.listName {
+  padding: .75rem 1.25rem;
+  padding-bottom: 0;
+  font-weight: 700; }
+
+.listContent {
+  padding: 8px 1.25rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  color: gray; }
+
+.listFooter {
+  padding: .75rem 1.25rem; }
+
+.cardExtraTitle {
+  color: #c81527; }
+
+.cardExtraPopup {
+  float: right; }
